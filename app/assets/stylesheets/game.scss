@@ -4,26 +4,22 @@
 
 
 .table {
-  width: 45vw;
-  height: 35vh;
-  margin: auto;
-}
-
-label {
-  width: 45vw;
-  margin: 0 auto;
-  color: white;
+  width: 45%;
+  height: 35%;
+  margin-left: 20%;
+  margin-top: 5%;
 }
 
 #rim {
   width: 225px;
 }
-#switch{
-  margin: 0 auto;
-  width:80px;
+
+.message {
+  margin-left: 30%;
+  width: 25%;
+  height: 35%;
 }
-.well{
-  margin: 0 auto;
-  width:25vw;
-  
+
+#message-text {
+	text-align: center;
 }
