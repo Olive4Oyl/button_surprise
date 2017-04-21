@@ -1,3 +1,29 @@
 // Place all the styles related to the Game controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.table {
+  width: 45vw;
+  height: 35vh;
+  margin: auto;
+}
+
+label {
+  width: 45vw;
+  margin: 0 auto;
+  color: white;
+}
+
+#rim {
+  width: 225px;
+}
+#switch{
+  margin: 0 auto;
+  width:80px;
+}
+.well{
+  margin: 0 auto;
+  width:25vw;
+  
+}
