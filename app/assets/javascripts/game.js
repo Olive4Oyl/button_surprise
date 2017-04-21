@@ -102,3 +102,17 @@ function checkWinner(){
 
   };
 };
+
+function message(arg){
+	$('#message-text').html(arg);
+	setTimeout(function() { clear(); }, 800);
+}
+
+function clear() {
+  turn = 0;
+  board = ["","","","","","","","",""];;
+  for(var i = 0; i < board.length; i++) {
+    $(`#${i}`).html(board[i]);
+  }
+  $("#message-text").html(""); 
+}
