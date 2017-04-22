@@ -14,7 +14,7 @@
   	text-transform: uppercase;
 }
 
-button {
+.click {
   position: relative;
   top: 50%;
   left: 50%;
@@ -43,7 +43,7 @@ button {
 }
 
 
-button:hover, button:focus
+.click:hover, .click:focus
 {
   background: #4db6ac;
   box-shadow: 0 3px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
@@ -65,7 +65,7 @@ button:hover, button:focus
   100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
 }
 
-button:active
+.click:active
 {
   color: #fff;
   text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff;
