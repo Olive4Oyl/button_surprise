@@ -1,7 +1,6 @@
 $(function(){
-    $(".button_container").click(function(){
-    	{
-    	window.location.href = "games";
-		}
+    $(".button_container").on("click", (function(){
+    	location.href = "https://limitless-dawn-60830.herokuapp.com/games";
     });
 });
+
