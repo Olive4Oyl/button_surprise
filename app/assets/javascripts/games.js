@@ -16,6 +16,7 @@ const winCombinations = [
 
 $(function() {
   attachListeners();
+  appButton();
 })
 
 function player(){

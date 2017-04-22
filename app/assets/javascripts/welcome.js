@@ -7,8 +7,9 @@ $(function() {
 });
 
 function appButton(){
-	$(".appButton").on("click", function(){
+	$(".click").on("click", function(){
 		location.href = "https://limitless-dawn-60830.herokuapp.com/games";
 	});
 }
+
 
