@@ -28,7 +28,7 @@ function player(){
 
 
 function attachListeners() {
-	$('.col.s4').on('click', function(event){
+	$(".col.s4").on("click", function(event){
 		doTurn(event)
 	});
 
@@ -71,7 +71,7 @@ function checkWinner(){
 };
 
 function message(arg){
-	$('#message-text').html(arg);
+	$("#message-text").html(arg);
 	setTimeout(function() { clear(); }, 800);
 }
 
@@ -79,7 +79,7 @@ function clear() {
   turn = 0;
   board = ["","","","","","","","",""];;
   for(var i = 0; i < board.length; i++) {
-    $(`#${i}`).html(board[i]);
+    $("button").html("");
   }
   $("#message-text").html(""); 
 }
