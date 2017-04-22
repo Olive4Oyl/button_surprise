@@ -1,3 +1,74 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.button_container {
+	margin-top: 200px;
+	margin-left: 50px;
+}
+
+.click {
+	font-size: 1.3em;
+  	font-weight: light;
+	font-family: 'Trebuchet MS', sans-serif;
+  	text-transform: uppercase;
+}
+
+button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: 250px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  font-size: 1.3em;
+  font-weight: light;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 100px;
+  letter-spacing: -1px;
+  color: white;
+  border: none;
+  background: #fff;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 150ms ease;
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+  transition: all 150ms ease;
+}
+
+
+button:hover, button:focus
+{
+  background: #4db6ac;
+  box-shadow: 0 3px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+}
+  
+@-webkit-keyframes pulsate
+{
+  0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+  50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+  100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+    
+@keyframes pulsate
+{
+  0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+  50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+  100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+
+button:active
+{
+  color: #fff;
+  text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff;
+  box-shadow: 0 6px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
+  -webkit-transform: translateY(3px);
+}
