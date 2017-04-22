@@ -8,7 +8,7 @@ $(function() {
 
 function appButton(){
 	$(".appButton").on("click", function(){
-		location.href = "https://git.heroku.com/limitless-dawn-60830/games";
+		location.href = "https://limitless-dawn-60830.herokuapp.com/games";
 	});
 }
 
